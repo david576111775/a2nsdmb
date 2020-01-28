@@ -8,6 +8,11 @@ import i18n from './i18n'
 import * as Sentry from '@sentry/browser';
 import * as Integrations from "@sentry/integrations";
 
+// 完整引入 Element
+import ElementUI from 'element-ui'
+import locale from 'element-ui/lib/locale/lang/en'
+import 'element-ui/lib/theme-chalk/index.css'
+
 Vue.config.productionTip = false
 
 const production = process.env.NODE_ENV === 'production';
@@ -21,6 +26,9 @@ if (production) {
   });
 }
 
+
+
+Vue.use(ElementUI, { locale })
 new Vue({
   router,
   store,
