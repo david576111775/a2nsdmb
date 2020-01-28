@@ -1,0 +1,45 @@
+{
+  "app": {
+    "name": ""
+  },
+  "pages": {
+    "home": {
+      "_name": "Home"
+    },
+    "about": {
+      "_name": "About us"
+    },
+    "stream": {
+      "_name": "Event Stream"
+    },
+    "accommodations": {
+      "_name": "Accommodations"
+    },
+    "platforms": {
+      "_name": "Diag. Platform"
+    }
+  },
+  "partials": {
+    "boolean": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "have": {
+      "true": "Have",
+      "false": "Not have"
+    },
+    "dialog": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "submit": "Submit",
+      "close": "Close"
+    },
+    "level": {
+      "info": "Info",
+      "tips": "Tips",
+      "success": "Success",
+      "warning": "Warning",
+      "failed": "Failed"
+    }
+  }
+}
